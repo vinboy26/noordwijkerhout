@@ -73,3 +73,7 @@ body {
     padding: 20px;
 }
 
+/* Mediaquery voor tablets en grotere schermen */
+@media screen and (min-width: 768px) {
+    /* Voeg hier stijlen toe die geschikt zijn voor tablets en grotere schermen */
+}
