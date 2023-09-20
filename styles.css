@@ -1,0 +1,75 @@
+/* Resetten van standaardmarges en -paddings */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Algemene opmaak voor de hele pagina */
+body {
+    font-family: sans-serif;
+    background-color: lightcyan;
+}
+
+/* Header opmaak */
+.header {
+    text-align: center;
+    color: red;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+/* Container voor de inhoud */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.left-section {
+    content: "left";
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+
+.article {
+    flex-basis: calc(50% - 10px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.right-section{
+    content: "right";
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: greenyellow;
+}
+
+/* Footer opmaak */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
