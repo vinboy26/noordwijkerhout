@@ -73,7 +73,17 @@ body {
     padding: 20px;
 }
 
-/* Mediaquery voor tablets en grotere schermen */
-@media screen and (min-width: 768px) {
-    /* Voeg hier stijlen toe die geschikt zijn voor tablets en grotere schermen */
-}
+/*hele kleine apparten(<600 pixels zoals smartphones)*/
+@madia only screen and (max-width: 600px);
+
+/*kleine apparten(<600 -767pixels    zoals grote smartphones)*/ 
+@madia only screen and (max-width: 600px);
+
+/*middelgrote apperaten ((<768 -991pixels  zoals tablets)*/
+@madia only screen and (max-width: 768px);
+
+/*grote apperaten (<992 -1199 pixels  zoals laptops/desktopcomputers)*/
+@madia only screen and (max-width: 992px)*/;
+
+/*hele grote apperaten (>1200 pixels)*/
+@madia only screen and (max-width: 1200px);
